@@ -1,6 +1,6 @@
 package PackTest_1;
 
-public class MailMessage {
+public class MailMessage implements Vocabulary<String>{
     private final String fieldFrom;
     private final String fieldTo;
     private final String fieldContent;

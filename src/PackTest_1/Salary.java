@@ -1,6 +1,6 @@
 package PackTest_1;
 
-public class Salary implements Vocabulary{
+public class Salary implements Vocabulary<Integer> {
     private final String salaryFrom;
     private final String salaryTo;
     private final int valueSalary;
@@ -22,7 +22,7 @@ public class Salary implements Vocabulary{
     }
 
     @Override
-    public Object getContent() {
+    public Integer getContent() {
         return valueSalary;
     }
 }
